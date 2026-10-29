@@ -261,4 +261,39 @@ GitHub: https://github.com/URK24AI1023/HireLens-AI---Resume-Screening-and-Job-Re
 HireLens AI is an academic project developed to demonstrate full-stack web development, resume processing, job matching, and recruitment workflow management.
 
 
+## Application Screenshots
+
+### 1. Job Seeker Login
+![Job Seeker Login](screenshots/jobseeker_login.png)
+
+### 2. Job Seeker Dashboard
+![Job Seeker Dashboard](screenshots/jobseeker_dashboard.png)
+
+### 3. Dashboard Overview
+![Dashboard Overview](screenshots/dashboard1.png)
+
+### 4. Job Recommendations
+![Job Recommendations](screenshots/job_recommendation.png)
+
+### 5. Resume Skill Matching
+![Resume Skill Matching](screenshots/skill_matching.png)
+
+### 6. Recruiter Dashboard
+![Recruiter Dashboard](screenshots/recruiter_dashboard.png)
+
+### 7. Job Posting
+![Job Posting](screenshots/job_posting.png)
+
+### 8. Job Management
+![Job Management](screenshots/job_management.png)
+
+### 9. Job Applications
+![Job Applications](screenshots/job_applications.png)
+
+### 10. Application Status
+![Application Status](screenshots/application_status.png)
+
+### 11. Additional Dashboard
+![Additional Dashboard](screenshots/dashboard2.png)
+
 
