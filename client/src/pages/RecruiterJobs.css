@@ -1,0 +1,367 @@
+
+.rjobs-page {
+  min-height: 100vh;
+  background: #f7f6f2;
+  color: #252344;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.rjobs-header {
+  min-height: 72px;
+  padding: 16px 6%;
+  background: #211f40;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.rjobs-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.rjobs-brand b {
+  color: #b6a5ff;
+}
+
+.rjobs-main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 42px 24px 64px;
+}
+
+.rjobs-heading,
+.rjobs-actions,
+.rjobs-form-heading,
+.rjobs-list-heading,
+.rjobs-card-top,
+.rjobs-card-actions,
+.rjobs-form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.rjobs-heading {
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.rjobs-eyebrow {
+  color: #7965d9;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.rjobs-heading h1 {
+  margin: 8px 0;
+  font-size: clamp(28px, 4vw, 38px);
+}
+
+.rjobs-heading p:last-child {
+  color: #77758b;
+}
+
+.rjobs-primary,
+.rjobs-secondary,
+.rjobs-back,
+.rjobs-close {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  padding: 11px 15px;
+  font-size: 14px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.rjobs-primary {
+  background: #6551cb;
+  color: #fff;
+  border: 1px solid #6551cb;
+}
+
+.rjobs-primary:hover {
+  background: #5140ad;
+}
+
+.rjobs-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.rjobs-secondary {
+  background: #fff;
+  border: 1px solid #e4e1ef;
+  color: #403b67;
+}
+
+.rjobs-secondary:hover,
+.rjobs-back:hover {
+  background: #eeeafb;
+}
+
+.rjobs-back {
+  background: #fff;
+  border: none;
+  color: #302c54;
+}
+
+.rjobs-success,
+.rjobs-error {
+  padding: 13px 16px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.rjobs-success {
+  color: #17643e;
+  background: #e4f5e9;
+}
+
+.rjobs-error {
+  color: #a12d39;
+  background: #fff0f0;
+}
+
+.rjobs-form-card,
+.rjobs-card,
+.rjobs-empty {
+  background: #fff;
+  border: 1px solid #eae7f0;
+  border-radius: 17px;
+  box-shadow: 0 7px 24px rgba(35, 29, 74, 0.04);
+}
+
+.rjobs-form-card {
+  padding: 25px;
+  margin-bottom: 35px;
+}
+
+.rjobs-form-heading {
+  margin-bottom: 24px;
+}
+
+.rjobs-form-heading h2,
+.rjobs-list-heading h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.rjobs-close {
+  background: #f3f1fa;
+  border: none;
+  padding: 9px;
+}
+
+.rjobs-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 19px;
+}
+
+.rjobs-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #46435e;
+}
+
+.rjobs-form input,
+.rjobs-form select,
+.rjobs-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 13px;
+  border: 1px solid #dedbe9;
+  border-radius: 9px;
+  background: #fff;
+  color: #292642;
+  font: inherit;
+  font-weight: 400;
+  outline: none;
+}
+
+.rjobs-form input:focus,
+.rjobs-form select:focus,
+.rjobs-form textarea:focus {
+  border-color: #7965d9;
+  box-shadow: 0 0 0 3px rgba(121, 101, 217, 0.12);
+}
+
+.rjobs-form textarea {
+  resize: vertical;
+}
+
+.rjobs-full {
+  grid-column: 1 / -1;
+}
+
+.rjobs-form-actions {
+  justify-content: flex-end;
+  margin-top: 3px;
+}
+
+.rjobs-list-section {
+  margin-top: 36px;
+}
+
+.rjobs-list-heading {
+  margin-bottom: 18px;
+}
+
+.rjobs-list-heading span {
+  background: #ebe7fb;
+  color: #5a49b2;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.rjobs-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.rjobs-card {
+  padding: 23px;
+}
+
+.rjobs-job-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  background: #f0edff;
+  color: #6651ca;
+  border-radius: 12px;
+}
+
+.rjobs-status {
+  font-size: 12px;
+  font-weight: 750;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+.rjobs-status.active {
+  color: #197348;
+  background: #e4f6eb;
+}
+
+.rjobs-status.inactive {
+  color: #95631c;
+  background: #fff1d9;
+}
+
+.rjobs-card h3 {
+  margin: 20px 0 5px;
+  font-size: 19px;
+}
+
+.rjobs-company {
+  margin: 0;
+  font-weight: 650;
+  color: #716d87;
+}
+
+.rjobs-location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #77758b;
+  font-size: 14px;
+}
+
+.rjobs-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.rjobs-tags span {
+  padding: 7px 10px;
+  background: #f5f3fb;
+  border-radius: 7px;
+  font-size: 12px;
+  color: #4f496e;
+}
+
+.rjobs-skills {
+  color: #69667d;
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.rjobs-card-actions {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-top: 1px solid #efedf4;
+  margin-top: 19px;
+  padding-top: 17px;
+}
+
+.rjobs-empty {
+  padding: 50px 20px;
+  text-align: center;
+  color: #77758b;
+}
+
+.rjobs-empty h3 {
+  color: #292642;
+}
+
+.rjobs-empty .rjobs-primary {
+  margin-top: 12px;
+}
+
+.rjobs-state {
+  padding: 30px;
+  color: #77758b;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .rjobs-main {
+    padding: 28px 16px 45px;
+  }
+
+  .rjobs-header {
+    padding: 15px 18px;
+  }
+
+  .rjobs-list,
+  .rjobs-form {
+    grid-template-columns: 1fr;
+  }
+
+  .rjobs-full {
+    grid-column: auto;
+  }
+
+  .rjobs-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .rjobs-form-card {
+    padding: 18px;
+  }
+}
